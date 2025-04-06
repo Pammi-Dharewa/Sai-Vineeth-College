@@ -8,7 +8,7 @@ const IntroSection = () => {
     <section className="py-20 bg-white xl:px-[8rem]">
       <div className="container-custom">
         <h2 className="section-title text-center">
-          Excellence in Education Since 1985
+          Excellence in Education Since 2005
         </h2>
         
         <div className="grid md:grid-cols-2 gap-12 items-center">
