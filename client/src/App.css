@@ -1,0 +1,95 @@
+@import "tailwindcss";
+
+
+
+/* *{
+
+}
+*/
+
+body{
+  @apply font-sans;
+}
+
+h1, h2, h3, h4, h5, h6{
+  @apply font-serif;
+}
+
+
+.container-custom{  
+  @apply p-4 rounded-lg;
+}
+
+.btn-primary {
+  @apply  text-white py-2 px-4 rounded transition-all hover:opacity-90 bg-[#0A2342];
+}
+
+.nav-link {
+  @apply relative font-medium transition-colors text-[#0A2342];
+}
+
+.nav-link::after {
+  content: '';
+  @apply absolute bottom-0 left-0 w-0 h-0.5 transition-all duration-300 bg-[#0A2342];
+}
+
+.nav-link:hover::after {
+  @apply w-full;
+}
+
+.section-title {
+  @apply text-3xl md:text-4xl font-bold mb-8 font-serif text-[#0A2342];
+}
+
+.card-hover {
+  @apply transform transition duration-300 hover:scale-105 hover:shadow-lg;
+}
+
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+.text-campus-navy{
+  color: #0A2342;
+}
+
+.text-campus-burgundy{
+  color: #8C1C13;
+}
+
+.bg-campus-burgundy{
+  background-color: #8C1C13;
+}
+
+
+.bg-campus-navy{
+  background-color: #0A2342;
+}
+
+.text-campus-gold{
+  color: #D6AD30;
+}
+
+
+
+.text-campus-light{
+  color: #F7F7F7;
+}
+
+
+.bg-campus-light{
+  background-color: #F7F7F7;
+}
+
+.text-campus-gray{
+  color: #4A4A4A;
+}
+
+.bg-campus-gray{
+  background-color: #4A4A4A;
+}
