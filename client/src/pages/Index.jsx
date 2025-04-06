@@ -6,6 +6,7 @@ import FeaturesSection from '../components/home/FeaturesSection'
 import ReviewsSection from '../components/home/ReviewsSection'
 import FacultySection from '../components/home/FacultySection'
 import IntroSection from '../components/home/IntroSection'
+import SocialBar from '../components/SocialBar'
 
 const Index = () => {
   return (
@@ -18,6 +19,7 @@ const Index = () => {
         <FacultySection></FacultySection>
         <ReviewsSection></ReviewsSection>
       </main>
+      <SocialBar></SocialBar>
       <Footer></Footer>
     </div>
   )
