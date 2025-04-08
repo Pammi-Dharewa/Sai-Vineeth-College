@@ -7,6 +7,7 @@ import ReviewsSection from '../components/home/ReviewsSection'
 import FacultySection from '../components/home/FacultySection'
 import IntroSection from '../components/home/IntroSection'
 import SocialBar from '../components/SocialBar'
+import ChatBot from '../components/ChatBot'
 
 const Index = () => {
   return (
@@ -20,6 +21,7 @@ const Index = () => {
         <ReviewsSection></ReviewsSection>
       </main>
       <SocialBar></SocialBar>
+      <ChatBot></ChatBot>
       <Footer></Footer>
     </div>
   )

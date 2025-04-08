@@ -1,9 +1,11 @@
 import React from 'react';
-import { Youtube, Facebook, Instagram, MessageCircle } from 'lucide-react';
+import { Youtube, Facebook, Instagram } from 'lucide-react';
+import { FaWhatsapp } from 'react-icons/fa';
+
 
 const SocialBar = () => {
   return(
-    <div className="fixed bottom-6 right-6 z-30 bg-white/90 backdrop-blur-sm px-4 py-2 rounded-full shadow-lg flex items-center space-x-4">
+    <div className="fixed bottom-6 left-6 z-30 bg-white/90 backdrop-blur-sm px-4 py-2 rounded-full shadow-lg flex items-center space-x-4">
       <a
         href="https://youtube.com"
         target="_blank"
@@ -21,7 +23,7 @@ const SocialBar = () => {
         className="text-green-600 hover:text-green-700 transition-colors"
         aria-label="Contact us on WhatsApp"
       >
-        <MessageCircle size={24} />
+        <FaWhatsapp size={24}/>
       </a>
       
       <a
